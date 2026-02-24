@@ -67,7 +67,7 @@ setup(
     },
     long_description="""\
 The Natural Language Toolkit (NLTK) is a Python package for
-natural language processing.  NLTK requires Python 3.10, 3.11, 3.12, 3.13, or 3.14.""",
+natural language processing.  NLTK requires Python 3.9, 3.10, 3.11, 3.12, 3.13, or 3.14.""",
     license="Apache License, Version 2.0",
     keywords=[
         "NLP",
@@ -95,6 +95,7 @@ natural language processing.  NLTK requires Python 3.10, 3.11, 3.12, 3.13, or 3.
         "Intended Audience :: Science/Research",
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
@@ -111,7 +112,7 @@ natural language processing.  NLTK requires Python 3.10, 3.11, 3.12, 3.13, or 3.
         "Topic :: Text Processing :: Linguistic",
     ],
     package_data={"nltk": ["test/*.doctest", "VERSION"]},
-    python_requires=">=3.10",
+    python_requires=">=3.9",
     install_requires=[
         "click",
         "joblib",
